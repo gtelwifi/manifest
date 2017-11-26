@@ -1,0 +1,23 @@
+LineageOS 11.0 for Samsung Galaxy Tab E (SM-T560)
+===========
+
+Getting Started
+------------------
+To get started with LineageOS, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+    repo init -u git://github.com/LineageOS/android.git -b cm-11.0
+    mkdir -p .repo/local_manifests
+
+    Copy gtelwifi.xml from this repository to .repo/local_manifests
+
+Then to sync up:
+
+    repo sync -j20
+
+Building
+------------------
+    . build/envsetup.sh && lunch lineage_gtelwifi-userdebug
+    brunch lineage_gtelwifi-userdebug

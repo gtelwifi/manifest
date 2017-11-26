@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest>
+        <project name="gtelwifi/android_device_samsung_gtelwifi" path="device/samsung/gtelwifi" remote="github" />
+        <project name="gtelwifi/android_kernel_samsung_gtelwifi" path="kernel/samsung/gtelwifi" remote="github" />
+        <project name="gtelwifi/android_vendor_samsung_gtelwifi" path="vendor/samsung/gtelwifi" remote="github" />
+        
+        <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+        <remove-project name="LineageOS/android_frameworks_native" />
+        <project name="gtelwifi/android_frameworks_native" path="frameworks/native" remote="github" />
+
+        <remove-project name="LineageOS/android_external_tinyalsa" />
+        <project name="gtelwifi/android_external_tinyalsa" path="external/tinyalsa" remote="github" /
+
+        <remove-project name="LineageOS/android_system_core" />
+        <project name="gtelwifi/android_system_core" path="system/core" remote="github" /
+    </manifest>
