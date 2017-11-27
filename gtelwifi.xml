@@ -6,12 +6,18 @@
         
         <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
+        <remove-project name="LineageOS/android_frameworks_av" />
+        <project name="gtelwifi/android_frameworks_av" path="frameworks/av" remote="github" />
+        
         <remove-project name="LineageOS/android_frameworks_native" />
         <project name="gtelwifi/android_frameworks_native" path="frameworks/native" remote="github" />
 
+        <remove-project name="LineageOS/android_hardware_libhardware" />
+        <project name="gtelwifi/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+        
         <remove-project name="LineageOS/android_external_tinyalsa" />
-        <project name="gtelwifi/android_external_tinyalsa" path="external/tinyalsa" remote="github" /
+        <project name="gtelwifi/android_external_tinyalsa" path="external/tinyalsa" remote="github" />
 
         <remove-project name="LineageOS/android_system_core" />
-        <project name="gtelwifi/android_system_core" path="system/core" remote="github" /
+        <project name="gtelwifi/android_system_core" path="system/core" remote="github" />
     </manifest>
