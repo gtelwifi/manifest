@@ -15,7 +15,7 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
 Then to sync up:
 
-    repo sync -j20
+    repo sync -j20 --force-sync
 
 Building
 ------------------
