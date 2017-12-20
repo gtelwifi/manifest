@@ -20,4 +20,5 @@ Then to sync up:
 Building
 ------------------
     . build/envsetup.sh && lunch lineage_gtelwifi-userdebug
+    ./vendor/cm/get-prebuilts
     brunch lineage_gtelwifi-userdebug
